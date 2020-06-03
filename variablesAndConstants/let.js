@@ -8,3 +8,9 @@ secondName = 'Kerala';
 
 console.log('Place : ',firstName + secondName);
 
+let firstNumber = 10, secondNumber = 13, result;
+result = firstNumber + secondNumber;
+
+console.log('Age : ',result);
+
+
