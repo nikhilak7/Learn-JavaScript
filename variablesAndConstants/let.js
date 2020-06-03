@@ -13,4 +13,12 @@ result = firstNumber + secondNumber;
 
 console.log('Age : ',result);
 
+let printName = function() {
+    let firstName = 'Kerala';
+    console.log(firstName);
+}
+printName();
+
+console.log(firstName);
+
 
