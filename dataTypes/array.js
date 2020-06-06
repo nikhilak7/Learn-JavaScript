@@ -35,7 +35,7 @@ function printMultiplesOfNumber(number) {
 }
 
 randomArray = createArrayWithIndex(10);
-console.log("gf",Array.isArray(randomArray));
+console.log(Array.isArray(randomArray));
 printElementsOfArray();
 console.log("");
 printMultiplesOfNumber(2);
