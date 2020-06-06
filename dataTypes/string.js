@@ -50,3 +50,4 @@ randomString = stringOne * stringTwo;
 console.log('Multiplication : ',randomString );
 console.log(typeof(randomString));
 console.log('_____________________________________________');
+
