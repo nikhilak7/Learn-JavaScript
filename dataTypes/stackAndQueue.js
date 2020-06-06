@@ -22,13 +22,16 @@ console.log(randomQueue);
 
 addItemToStack = (stack, element) => {
     let sizeOfStack = stack.length;
-    for (let index = sizeOfStack; index >= 1; index--) {
-        stack[index] = stack[index-1];
-    }
-    stack[0] = element;
+    stack[sizeOfStack] = element;
+}
+
+deleteItemFromStack = (stack) => {
+    stack.length = stack.length-1
 }
 
 addItemToStack(randomStack, 8);
 addItemToStack(randomStack, 3);
 addItemToStack(randomStack, 5);
+console.log(randomStack);
+deleteItemFromStack(randomStack);
 console.log(randomStack);
